@@ -1,0 +1,43 @@
+body {
+	background-color: black;
+	margin: 0;
+	padding: 0;
+}
+
+#wrapper1 {
+	font-family: helvetica;
+	margin: 50px auto;
+	width: 800px;
+	height: 1000px;
+	color:white;
+	display: block;
+}
+
+h1 {
+	text-align: center;
+}
+h2 {
+	margin-top: 50px;
+	text-align: center;
+	line-height: 40px;
+}
+
+#button {
+	background-color: #151515;
+	box-shadow: inset 0px 0px 13px #000;
+	height: 50px;
+	width: 200px;
+	text-align: center;
+	line-height: 50px;
+	margin: 50px auto;
+	font-size: 20pt;
+	font-weight: bold;
+}
+
+#wrapper2 {
+	display: none;
+	font-family: helvetica;
+	color:#0c0c0c;
+	margin: 300px auto;
+	width: 800px;
+}
