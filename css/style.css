@@ -1,43 +1,55 @@
 body {
-	background-color: black;
+	background-image:url(../images/crowd01.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	font-family: helvetica;
+	color:white;
 	margin: 0;
 	padding: 0;
 }
 
-#wrapper1 {
-	font-family: helvetica;
-	margin: 50px auto;
+#wrapper {
+	margin: 100px auto;
 	width: 800px;
 	height: 1000px;
-	color:white;
 	display: block;
 }
 
 h1 {
-	text-align: center;
-}
-h2 {
-	margin-top: 50px;
-	text-align: center;
-	line-height: 40px;
-}
-
-#button {
-	background-color: #151515;
-	box-shadow: inset 0px 0px 13px #000;
-	height: 50px;
-	width: 200px;
-	text-align: center;
-	line-height: 50px;
 	margin: 50px auto;
-	font-size: 20pt;
+	text-align: center;
 	font-weight: bold;
+	letter-spacing: 2px;
+	font-size: 20pt;
+	
+}
+.text h2 {
+	text-align: center;
+	font-weight: lighter;
+	line-height: 20px;
+
 }
 
-#wrapper2 {
-	display: none;
-	font-family: helvetica;
-	color:#0c0c0c;
-	margin: 300px auto;
-	width: 800px;
+.video {
+	width: 30em;
+	height: 20em;
+	margin: 50px auto;
+	display: block;
+}
+
+.button {
+	width: 10em;
+	height: 2.5em;
+	line-height: 2.5em;
+	background-color: white;
+	color:black;
+	text-align: center;
+	font-weight: bold;
+	display: block;
+	margin: 50px auto;
+	-webkit-box-shadow: 0 0px 10px rgba(0,0,0,1);
+	-moz-box-shadow: 0 0px 10px rgba(0,0,0,1);
+	box-shadow: 0 0px 10px rgba(0,0,0,1);
 }
